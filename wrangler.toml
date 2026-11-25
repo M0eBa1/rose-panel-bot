@@ -12,7 +12,7 @@ run_worker_first = ["/", "/api/*", "/webhook", "/setup", "/health", "/verify", "
 # （如需复用原 telegram_private_chatbot 的 TOPIC_MAP 数据，取消注释 id 并填入你的 KV ID 即可）
 [[kv_namespaces]]
 binding = "TOPIC_MAP"
-# id = "your-existing-kv-namespace-id"
+id = "e9954cc020ac4f3282b78c0d7384ef39"
 
 # 可选环境变量（敏感信息请使用 wrangler secret put 或在 Cloudflare 后台作为 Secret 添加）：
 # - BOT_TOKEN          (必填 Secret) Telegram Bot Token
